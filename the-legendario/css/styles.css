@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Aguafina+Script&family=Berkshire+Swash&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 12px;    
+    
+}
+
+ a:visited, a:hover, a:active, a:link{
+    text-decoration: none;
+    color: var(--first);
+}
+
+
+/* VAR COLORS */
+
+:root {
+    --first: #290671;
+    --second: #c4aa01;
+    --special-font: #ffec73;
+}
+
+html {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#html {
+    filter: blur(10%);
+
+}
+
+
+/* GENERAL SETTINGS */
+
+body {
+    color: var(--first);
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Aclonica', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 115vh;
+  
+
+
+}
+
+#legendario {
+    font-size: 8rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:40vh;
+    font-family: 'Berkshire Swash', cursive;;
+    color: var(--special-font);
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+/* NAVBAR */
+
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    display: flex;
+    height: 22vh;
+    background-color: var(--second);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* NAV BAR EFFECTS */
+
+.nav-bar {
+    opacity: 0;
+    transition: 0.9s;
+}
+
+.show-nav-bar {
+    opacity: 1;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 10px 15px;
+    padding: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.nav-link:hover {
+    color: var(--first);
+}
+
+.active {
+    color: var(--first);
+}
+
+
+/* MAIN */
+
+#main {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* FOOTER */
+
+#footer {
+    display: block;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--first);
+}
+
+#footer1 {
+    display: flex;   
+    width: 100%;
+    height: 100px;
+    border-top: 10px black solid;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer2 {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+#name {
+    font-size: 7em;
+    color: var(--second);
+    font-family: 'Aguafina Script', cursive;;
+    padding-top: 20px;
+}
+
+
+
+/* MAIN INIT */
+
+#welcome-container {
+    width: 100%;
+    height: 200px;
+}
+
+
+#welcome {
+    font-size: 10em;
+    justify-self: center;
+    text-align: center;
+    margin: auto;
+    color: var(--special-font);
+    font-family:  'Berkshire Swash', cursive; ;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+#second-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#first-p {
+    width: 80%;
+    margin: 40px;
+    text-align: center;
+}
+
+
+#four-container {
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-box {
+    width: 40%;
+    margin: 20px;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+#image-2 {
+    opacity: 100%;
+    width: 100%;
+}
+
+#second-p {
+    text-align: left;
+    font-size: 2em;
+
+}
+
+.second-p-js {
+    font-size: 1.5em;
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#video-container {
+    margin-top: 100px;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+/* COMMENTS */
+
+        /* ARTICLES */
+
+.article {
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    align-self: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+.section1 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.section2 {
+    margin: 10px;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+}
+
+#portrait {
+
+    width: 90%;
+    height: 90%;
+    border: 5px var(--first) solid;
+    margin: auto;
+
+
+}
+
+.title-article {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+}
+.text-article {
+    font-size: 1.5em;
+    color: var(--special-font);
+    text-shadow: 2px 2px 3px black;
+}
+
+
+

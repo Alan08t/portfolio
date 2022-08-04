@@ -1,0 +1,136 @@
+body {
+    width: 100vw;
+    padding: 0px;
+    box-sizing: border-box ;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(249,250,67,1) 71%); 
+    font-size: 10px;
+ }
+.main {
+    margin: auto;
+    width: 100vw;
+    height: 75%;
+}
+ .paper {
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    border: 5px;
+    border-style: groove;
+    border-radius: 3px;
+    position: relative;
+    top: 25%;
+    box-shadow: 3px 3px 6px 3px #222;
+    background-image: linear-gradient(180deg,#00d4ff 0%,#050158 25%, #090979c6 35%, #00d4ff 100%);
+    overflow: hidden;
+    z-index: -3;
+
+ }
+ .header {
+    position: static;
+    width: 100%;
+    height: 40%;
+ }
+ .certificate {
+    font-family: 'Frank Ruhl Libre', serif; 
+    font-size: 4rem;
+    margin: 0px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    color: white;
+    text-shadow: 1px 2px #000;
+    z-index: 2;
+    font-weight: 900;
+
+}
+ .sello {
+    width: 20%;
+    z-index: 9;
+    position:absolute;
+    left: 30px;
+    top: 30px;
+
+}
+.nombre {
+    position: absolute;
+    top: 70px;
+    left: 170px;
+    font-family: 'Splash', cursive;
+    font-size: 7em;
+    z-index: 1;
+    padding: 10px;
+    text-shadow: 1px 2px #777;
+    text-decoration: underline;
+
+}
+
+.texto1 {
+    position: absolute;
+    left: 265px;
+    top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.bodypaper {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+}
+.parrafo {
+    height: 50px;
+    position: relative;
+    text-justify: center;
+    width: 50%;
+    text-align: center;
+    top: 50px;
+    left: 175px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0px;
+}
+
+#firma1 {
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+    padding: 10px;
+}
+
+#firma2 {
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+}
+
+#cinta {
+    position: absolute;
+    width: 30px;
+    height: 300px;
+    transform: rotate(45deg);
+    top: -60px;
+    left: 80px;
+    z-index: 1;
+}
+#patron {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0.15;
+    z-index: -2;
+}
