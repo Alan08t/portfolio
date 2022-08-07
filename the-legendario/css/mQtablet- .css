@@ -1,0 +1,128 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nav-bar {
+        width: 90%;
+        position: sticky;
+        top: 7%;
+        left: 5%;
+        transform: translateX(0);
+        z-index: 9;
+        display: flex;
+        height: 8vh;
+        background-color: rgba(241, 225, 4, 0.811);
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 8vh;
+        line-height: 5vh;
+        padding: 0 0;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+
+    .nav-menu-item {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 25%;
+        height: 8vh;
+        text-transform: uppercase;
+        line-height: 5vh;
+
+
+
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: black;
+        padding: 0;
+        font-size: 1.5em;
+        line-height: 8vh;
+
+    }
+
+    .btn-menu {
+        display: none;
+        background: none;
+        border: none;
+        line-height: 8vh;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+
+
+
+    }
+
+    #legendario {
+        font-size: 8rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 40vh;
+        font-family: 'Berkshire Swash', cursive;
+        ;
+        color: var(--special-font);
+        text-align: center;
+        text-shadow: 3px 3px 5px black;
+    }
+
+
+    #video-container {
+        margin-top: 150px;
+    }
+
+    .nav-menu-visible {
+        left: 0%;
+    }
+    
+    .nav-menu-item {
+    
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    
+    }
+    
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,113 @@
+@media screen and (max-width:768px){
+    .btn-menu {
+        display: block;
+        background: none;
+        border: none;
+        line-height: 8vh;
+        font-size: 3rem;
+        cursor: pointer;
+        padding: 0 40px;
+    }
+
+
+    /* HEADER */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 115vh;
+  
+
+
+}
+
+#legendario {
+    font-size: 8rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:40vh;
+    font-family: 'Berkshire Swash', cursive;;
+    color: var(--special-font);
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+/* NAVBAR */
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    height: 10vh;
+    background-color: var(--second);
+    justify-content: end;
+    left: 0%;
+    transform: translateX(0%);
+    z-index: 9;
+    display: flex;
+    height: 10vh;
+    background-color: rgba(241, 225, 4, 0.811);
+    justify-content: end;
+    border-radius: 0px;
+}
+
+/* NAV BAR EFFECTS */
+
+.nav-bar {
+    opacity: 0;
+    transition: 0.9s;
+}
+
+.show-nav-bar {
+    opacity: 1;
+}
+
+
+/* MENU NAV BAR */
+
+
+.nav-menu {
+    display: flex;
+    position: fixed;
+    top: 10vh;
+    flex-direction: column;
+    background-color: var(--special-font);
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+    line-height: 10vh;
+    padding: 0;
+    overflow: scroll;
+    left: 100%;
+    align-items: center;
+    transition: left 0.3s;
+    justify-content: flex-start;
+
+}
+.nav-menu-visible {
+    left: 0%;
+}
+
+.nav-menu-item {
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
