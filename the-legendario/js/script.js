@@ -16,7 +16,6 @@ else {
     nav.classList.remove('show-nav-bar')
 }
 
-console.log(altura, distancia)
 
   })
 }
