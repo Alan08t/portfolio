@@ -1,37 +1,40 @@
 @media screen and (max-width:590px){
-    .btn-menu {
-        display: block;
-        background: none;
-        border: none;
-        line-height: 8vh;
-        font-size: 3rem;
-        cursor: pointer;
-        padding: 0 40px;
-    }
 
 
-    /* HEADER */
 
-header {
+       
+
+
+
+
+/* HEADER */
+
+.header {
     position: relative;
     width: 100%;
-    height: 115vh;
+    height: 100vh;
   
 
 
 }
 
-#legendario {
-    font-size: 8rem;
+.legendario {
+    display: flex;
+    font-size: 14vw;
     position: absolute;
+    align-self: center;
     left: 50%;
     transform: translateX(-50%);
-    margin-top:40vh;
     font-family: 'Berkshire Swash', cursive;;
     color: var(--special-font);
     text-align: center;
     text-shadow: 3px 3px 5px black;
+    letter-spacing: -1px;
+    white-space: nowrap;
+
 }
+
+
 
 
 /* NAVBAR */
@@ -53,20 +56,6 @@ header {
     justify-content: end;
     border-radius: 0px;
 }
-
-/* NAV BAR EFFECTS */
-
-.nav-bar {
-    opacity: 0;
-    transition: 0.9s;
-}
-
-.show-nav-bar {
-    opacity: 1;
-}
-
-
-/* MENU NAV BAR */
 
 
 .nav-menu {
@@ -96,7 +85,7 @@ header {
 .nav-link {
     text-decoration: none;
     width: 70%;
-    color: black;
+    color: var(--special-font);
     padding: 0;
     margin: 5px;
     font-size: 1.5em;
@@ -112,7 +101,7 @@ header {
     font-size: 2.0em;
 }
 
-}
+
 
 
 .nav-menu-item {
@@ -133,6 +122,208 @@ header {
 
 }
 
+.btn-menu {
+    display: block;
+    background: none;
+    border: none;
+    line-height: 8vh;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 0 40px;
+    color: white;
+}
 
 
 
+
+ /* MAIN */
+
+ 
+     /* WELCOME SECTION */
+
+
+ #welcome {
+    font-size: 4em;
+    justify-self: center;
+    text-align: center;
+    margin: auto;
+    color: var(--special-font);
+    font-family:  'Berkshire Swash', cursive; ;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+     /* END WELCOME SECTION */
+
+
+
+     /* SOME TEXT STYLE */
+     .text-article {
+        font-size: 3vw;
+        color: var(--special-font);
+        font-weight: normal;
+    }
+
+     /*END SOME TEXT STYLES */
+
+
+  /*MAIN INDEX CONTENT */
+
+
+
+
+  /* SECOND CONTAINER */
+
+
+  .second-container {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 5%;
+}
+
+
+
+
+#first-p {
+    width: 100%;
+    margin: 40px;
+    text-align: center;
+}
+
+
+/* THIRD CONTAINER */
+
+
+.third-container {
+    width: 90%;
+    height: 30vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+
+.section-box {
+    height: 90%;
+    width: 60%;
+
+}
+
+.section-img {
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.img {
+    width: 200%;
+    position: relative;
+    left: -10%;
+    bottom: 0%;
+}
+
+.second-p {
+    text-align: center;
+    align-self: center;
+    line-height: 1.2em;
+
+}
+
+.second-p-js {
+    font-size: 1.5em;
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* VIDEO SECTION */
+
+
+/* VIDEO */
+
+.video-section {
+    color: var(--special-font);
+    align-self: center;
+    width: 80%;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.video-container {
+    position: relative;
+    left: 0%;
+
+}
+
+
+.video {
+    height: 100%;
+}
+/* CARACTERISTICS */
+
+.caracteristics-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+
+}
+
+.caracteristics-title {
+    font-family: 'Berkshire Swash', cursive;;
+    font-size: 5vh;
+    z-index: 9;
+    margin-top: 5vh;
+}
+.list-caracteristics {
+    z-index: 9;
+    list-style: none;
+    padding-left: 5vw;
+}
+
+.caracteristics {
+    margin: 2vh 0px;
+    max-width: 100%;
+    font-size: 2vh;
+}
+
+
+ /* END MAIN CONTENT */
+
+
+
+/* FOOTER */
+
+#footer {
+    display: block;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: var(--second);
+    padding-top: 100px;
+}
+
+#footer1 {
+    display: flex;   
+    width: 100%;
+    height: 100px;
+    border-top: 10px black solid;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer2 {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* END FOOTER */
+
+
+
+}
