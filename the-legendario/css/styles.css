@@ -14,9 +14,9 @@
 /* VAR COLORS */
 
 :root {
-    --first: #290671;
-    --second: #c4aa01;
-    --special-font: #ffec73;
+    --first: #5000a0;
+    --second: #6f33aa;
+    --special-font: #afc3ff;
 }
 
 html {
@@ -62,11 +62,11 @@ body {
 
 #main {
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     height: auto;
-    margin-bottom: 50px;
     justify-self: center;
     align-self: center;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0.186) 90%, rgba(0, 0, 0, 0) 100%); 
 }
 
 
@@ -185,7 +185,7 @@ body {
 
 .article {
     width: 60vw;
-    height: 20wh;
+    height: 20vh;
     background-color: rgba(0, 0, 0, 0.331);
     display: block;
     margin-top: 60px;
