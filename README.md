@@ -11,8 +11,7 @@ A continuacion describire algunos de ellos y proporcionare el link para encontra
 ## The legendario
 
 Mi primer proyecto interesante en cuanto a tamaño respecta. La idea es simular una pagina de juego online, todo el contenido es ficticio,
-aunque me gustaria en un futuro inculir algo de contenido. Lo estoy construyendo enteramente con CSS, HTML y Javascript puro, a excepción de una
-libreria que simula una maquina de escribir.
+aunque me gustaria en un futuro inculir algo de contenido. Lo estoy construyendo enteramente con CSS, HTML y Javascript puro.
 
 ![Screenshot the legendario](the-legendario/the-legendario-screenshot.png)
 [Enlace a netfliy](https://the-legendario-portfolio-at.netlify.app/)
