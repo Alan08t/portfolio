@@ -15,7 +15,7 @@ Una calculadora con un diseño kawai que hice con HTMl CSS y Js. Todo el codigo 
 v1.0.0 //////// Los botones de '.' y '%' aún carecen de funcionalidad. 
 
 ![Screenshot Kawaiiculator](calculadora/Firefox_Screenshot_2022-09-20T15-57-23.098Z.png)
-### [Enlace a Kawaiiculator](kawaiiculator.netlify.app)
+### [Enlace a Kawaiiculator](https://kawaiiculator.netlify.app/)
 
 ## The legendario
 
