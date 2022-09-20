@@ -1,0 +1,322 @@
+/* GENERAL SETTINGS */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Exo+2:wght@300;900&family=Kavoon&family=Lobster&display=swap');
+
+*{
+
+    user-select: none;
+    --main-color: pink;
+    --second-color: rgb(252, 120, 142);
+    --background-color: rgb(150, 52, 68);
+    font-family: 'Kavoon', cursive;
+    box-sizing: border-box;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+}
+/* NUMBERS GENERAL SETTINGS */
+
+.digit {
+    font-size: 22px;
+    color: var(--main-color);
+    text-shadow: 1.5px 1.5px var(--baground-color) ;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    min-height: 100vh;
+    border: 5px double;
+    /* Created with https://www.css-gradient.com */
+background: rgba(152, 52, 69, 1.0);
+background: -webkit-radial-gradient(center, rgba(152, 52, 69, 1.0), rgba(252, 120, 143, 1.0));
+background: -moz-radial-gradient(center, rgba(152, 52, 69, 1.0), rgba(252, 120, 143, 1.0));
+background: radial-gradient(ellipse at center, rgba(152, 52, 69, 1.0), rgba(252, 120, 143, 1.0));
+}
+
+/***********    **********/
+
+
+
+/* CALCULATOR GENERAL FORM */
+
+.calculator {
+    width: 30%;
+    height: 90vh;
+    border: 2px solid;
+    align-self: center;
+    background-color: var(--main-color);
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 1px 3px var(--main-color);
+    border: 1px solid var(--background-color);
+
+}
+.calculator-interior {
+    border-radius: 10%;
+    width: 98%;
+    height: 98%;
+    border: 1px solid;
+    align-self: center;
+    background-color: var(--bagckround-color);
+    background-image: url(calculator-interior-background.jpg);
+    align-items: center;
+    box-shadow: -2px 1px 3px var(--second-color);
+
+}
+
+/* CALCULATOR SCREEN */
+
+
+.calculator-screen {
+    border-radius: 20%;
+    width: 96%;
+    height: 28%;
+    border: 1px solid var(--second-color);
+    align-self: center;
+    margin-top: 2%;
+    background-image: url(background-screen.png);
+    background-color: var(--second-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inside-screen {
+    width: 90%;
+    height: 60%;
+    border-bottom: 5px double var(--main-color);
+    border-radius: 15%;
+    margin-top: 10%;
+    justify-content: flex-end;
+
+
+}
+
+.screen-digit {
+    font-size: 48px;
+    text-align: right;
+    color: var(--second-color);
+    text-shadow: -2px 1px 5px var(--main-color);
+}
+
+
+
+
+
+
+
+/* CALCULATOR PANEL */
+
+
+.calculator-panel {
+    width: 100%;
+    height: 70%;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+/* LEFT PANEL */
+
+
+.left-panel {
+    width: 65%;
+    height: 100%;
+    top:38.5%;
+    left: 38%;
+    align-self: center;
+
+}
+
+
+
+/* SUPERIOR PANEL BUTTONS */
+
+.number-buttons {
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+
+}
+
+.number-button {
+    width: 30%;
+    height: 27%;
+    background: var(--second-color);
+    align-self: center;
+    border-radius: 30%;
+    border: 1px solid var(--background-color);
+    display: flex;
+    justify-content: center;
+    box-shadow: -2px 1px 10px var(--background-color);
+
+
+}
+
+.number {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+/* INFERIOR PANEL BUTTONS */
+
+
+.bottom-buttons {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 4px;
+    margin: 0 5px;
+    
+}
+
+
+.number-button-bottom {
+    width: 25%;
+    height: 60%;
+    background: var(--second-color);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 30%;
+    border: 1px solid var(--background-color);
+    box-shadow: -2px 1px 10px var(--background-color);
+
+
+}
+
+.number-b {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.first-b-button-span {
+    align-self: flex-start;
+
+
+}
+
+.last-b-button-span {
+    align-self: flex-start;
+}
+
+.second-b-button-span {
+    height: 90%;
+    align-self: flex-end;
+    margin-bottom: 3px;
+
+}
+
+.button-b-container-1 {
+    height: 40%;
+
+}
+
+.button-b-container-2 {
+    align-self: center;
+}
+
+
+/* END LEFT PANEL*/
+
+
+/* RIGHT PANEL */
+
+
+.right-panel {
+    width: 35%;
+    height: 100%;
+    top:38.5%;
+    left: 54%;
+    align-self: center;
+    gap: 1px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.right-button {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second-color);
+
+    align-self: center;
+    border-radius: 30%;
+    width: 70%;
+    border: 1px solid var(--background-color);
+    box-shadow: -2px 1px 10px var(--background-color);
+
+}
+
+.right-number {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.equal-button {
+    height: 40% ;
+}
+
+
+/* END RIGHT PANEL*/
+
+
+
+/* EFFECT CLASS'S*/
+
+.active {
+    opacity: 0.9;
+    scale: 1.4;
+    color: white;
+    animation-name: coso;
+    animation: ease-in;
+    animation-duration: 0.3s;
+    transition: scale 0.1s;
+}
