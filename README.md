@@ -15,7 +15,7 @@ Una calculadora con un diseño kawai que hice con HTMl CSS y Js. Todo el codigo 
 v1.0.0 //////// Los botones de '.' y '%' aún carecen de funcionalidad. 
 
 ![Screenshot Kawaiiculator](calculadora/Firefox_Screenshot_2022-09-20T15-57-23.098Z.png)
-###[Enlace a Kawaiiculator](kawaiiculator.netlify.app)
+### [Enlace a Kawaiiculator](kawaiiculator.netlify.app)
 
 ## The legendario
 
@@ -23,7 +23,7 @@ Mi primer proyecto interesante en cuanto a tamaño respecta. La idea es simular 
 aunque me gustaria en un futuro inculir algo de contenido. Lo estoy construyendo enteramente con CSS, HTML y Javascript puro.
 
 ![Screenshot the legendario](the-legendario/the-legendario-screenshot.png)
-###[Enlace a netfliy](https://the-legendario-portfolio-at.netlify.app/)
+### [Enlace a netfliy](https://the-legendario-portfolio-at.netlify.app/)
 
 
 
@@ -34,7 +34,7 @@ Un certificado de practica de CSS y HTML.
 
 
 ![Screenshot certificado](diploma/diploma-screenshot.png)
-###[Enlace a netlify](https://diploma-portfolio-at.netlify.app/)
+### [Enlace a netlify](https://diploma-portfolio-at.netlify.app/)
 
 
 ## Login
@@ -43,5 +43,5 @@ Un login de practica con CSS y HTML. Tiene interactividad con CSS.
 
 ![Screenshot login](login/login-screenshot.png)
 
-###[Enlace a netlify](https://login-portfolio-at.netlify.app/)
+### [Enlace a netlify](https://login-portfolio-at.netlify.app/)
 
