@@ -6,7 +6,14 @@ Hola, soy **Alan**. Desarrollador web y tester QA son los roles en los que me es
 En mi portfolio se pueden encontrar los proyectos personales en los que he estado trabajando.
 
 A continuacion describire algunos de ellos y proporcionare el link para encontrarlos en netlify.
+## Kaiaculator
 
+Una calculadora con un diseño kawai que hice con HTMl CSS y Js. Todo el codigo esta diseñado por mí.
+
+v1.0.0 //////// Los botones de '.' y '%' aún carecen de funcionalidad. 
+
+![Screenshot Kawaiiculator](calculadora/Firefox_Screenshot_2022-09-20T15-57-23.098Z.png)
+[Enlace a Kawaiiculator](kawaiiculator.netlify.app)
 
 ## The legendario
 
